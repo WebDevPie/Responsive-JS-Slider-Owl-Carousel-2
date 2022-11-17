@@ -1,0 +1,92 @@
+body {
+    background: #222;
+    color: #222;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#pricing {padding-top: 100px;}
+
+h1, h3, .btn {text-transform: uppercase;}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.owl-carousel {
+    margin-top: 30px;
+}
+
+.card {
+    background: #fff;
+    margin: 15px;
+    padding: 10px 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px #5df9de;
+    text-align: center;
+}
+
+.card-price {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 5px;
+    border-bottom: 1px solid #222;
+}
+
+.card-price span {
+    font-size: 38px;
+    font-weight: 800;
+    padding: 0 3px;
+    line-height: 36px;
+}
+
+.card-price sub {
+    align-self: flex-end;
+    line-height: 22px
+}
+
+.card .btn {
+    width: 100%;
+    background: #222;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px #222;
+    transition: all 0.2s ease-out;
+    border: none;
+    cursor: pointer;
+}
+
+.card .btn:hover {
+    background: #5df9de;
+    color: #222;
+    box-shadow: 0 0 5px #5df9de;
+}
+
+.owl-dot span {
+    background: rgba(93, 249, 222, 0.4) !important;
+}
+
+.owl-dot.active span {
+    background: #5df9de !important;
+}
+
+/* For navigation arrows */
+
+/* .owl-nav button span {
+    font-size: 70px;
+    color: #5df9de;
+} */
